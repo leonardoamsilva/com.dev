@@ -4,7 +4,7 @@ export const Home = () => {
   return(
     <>
     <header>
-    <h1>bem-vindo ao comandos.dev!</h1>
+    <h1>bem-vindo ao comandos.dev</h1>
 </header>
 
 <div class="container">
