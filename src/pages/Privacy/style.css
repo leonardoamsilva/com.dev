@@ -1,0 +1,25 @@
+article li {
+  list-style: disc;
+}
+
+article h2 {
+  color: #4c659b;
+}
+
+h3 {
+  color: #447bf3;
+  margin-left: 10px;
+}
+
+h3 + p{
+  margin-left: 20px;
+}
+
+article h2, h3, p {
+  margin-bottom: 15px;
+}
+
+article ul {
+  margin-left: 50px;
+  margin-bottom: 15px;
+}

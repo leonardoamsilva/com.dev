@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1B1B1B;
+  height: 65px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+#search {
+  border: none;
+  border-radius: 9px;
+  padding: 7px;
+}
+
+.header ul {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.header ul a svg:hover g{
+ fill: #82aaff;
+}

@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1B1B1B;
+  color: white;
+  margin-bottom: 25px;
+}
+
+footer ul{
+  display: flex;
+  gap: 10px;
+}
