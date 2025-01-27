@@ -11,6 +11,11 @@ import { Git } from './pages/Git';
 import { Construction } from './pages/Construction';
 import { Terms } from './pages/Terms';
 import { Privacy } from './pages/Privacy';
+import { Windows } from './pages/Windows';
+import { Linux } from './pages/Linux';
+import { Mac } from './pages/Mac';
+import { Vscode } from './pages/Vscode';
+import { Vim } from './pages/Vim';
 
 
 
@@ -26,8 +31,13 @@ root.render(
 
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
         <Route path='/git' element={<Git />} />
+        <Route path='/windows' element={<Windows />} />
+        <Route path='/linux' element={<Linux />} />
+        <Route path='/mac' element={<Mac />} />
+        <Route path='/vscode' element={<Vscode />} />
+        <Route path='/vim' element={<Vim />} />
+        <Route path='/about' element={<About />} />
         <Route path='/terms' element={<Terms />} />
         <Route path='/privacy' element={<Privacy />} />
         <Route path='*' element={<Construction />} />

@@ -1,0 +1,178 @@
+[
+  {
+      "code": ":w",
+      "name": "Salvar o arquivo atual"
+  },
+  {
+      "code": ":w <arquivo>",
+      "name": "Salvar o arquivo atual com um novo nome"
+  },
+  {
+      "code": ":q",
+      "name": "Fechar o Vim (se não houver alterações não salvas)"
+  },
+  {
+      "code": ":q!",
+      "name": "Fechar o Vim sem salvar as alterações"
+  },
+  {
+      "code": ":x",
+      "name": "Salvar e fechar o arquivo"
+  },
+  {
+      "code": ":e <arquivo>",
+      "name": "Abrir um arquivo específico"
+  },
+  {
+      "code": ":wq",
+      "name": "Salvar e fechar o arquivo"
+  },
+  {
+      "code": ":set number",
+      "name": "Exibir os números das linhas"
+  },
+  {
+      "code": ":set nonumber",
+      "name": "Ocultar os números das linhas"
+  },
+  {
+      "code": ":set autoindent",
+      "name": "Ativar a indentação automática"
+  },
+  {
+      "code": ":set tabstop=4",
+      "name": "Definir o número de espaços para uma tabulação"
+  },
+  {
+      "code": ":set shiftwidth=4",
+      "name": "Definir a largura da indentação"
+  },
+  {
+      "code": ":set expandtab",
+      "name": "Converter tabs em espaços"
+  },
+  {
+      "code": ":set hlsearch",
+      "name": "Destacar as ocorrências da pesquisa"
+  },
+  {
+      "code": ":set nohlsearch",
+      "name": "Desativar o destaque das ocorrências da pesquisa"
+  },
+  {
+      "code": "/<termo>",
+      "name": "Pesquisar por um termo"
+  },
+  {
+      "code": "n",
+      "name": "Ir para a próxima ocorrência da pesquisa"
+  },
+  {
+      "code": "N",
+      "name": "Ir para a ocorrência anterior da pesquisa"
+  },
+  {
+      "code": ":%s/<termo>/<substituição>/g",
+      "name": "Substituir todas as ocorrências de um termo no arquivo"
+  },
+  {
+      "code": "dd",
+      "name": "Deletar a linha atual"
+  },
+  {
+      "code": "d< movimento>",
+      "name": "Deletar até o movimento especificado (ex: d$ para deletar até o final da linha)"
+  },
+  {
+      "code": "yy",
+      "name": "Copiar a linha atual"
+  },
+  {
+      "code": "p",
+      "name": "Colar o conteúdo copiado"
+  },
+  {
+      "code": "u",
+      "name": "Desfazer a última alteração"
+  },
+  {
+      "code": "Ctrl+r",
+      "name": "Refazer a última alteração"
+  },
+  {
+      "code": "gg",
+      "name": "Ir para o início do arquivo"
+  },
+  {
+      "code": "G",
+      "name": "Ir para o final do arquivo"
+  },
+  {
+      "code": "<n>G",
+      "name": "Ir para a linha <n>"
+  },
+  {
+      "code": "i",
+      "name": "Entrar no modo de inserção antes do cursor"
+  },
+  {
+      "code": "I",
+      "name": "Entrar no modo de inserção no início da linha"
+  },
+  {
+      "code": "a",
+      "name": "Entrar no modo de inserção após o cursor"
+  },
+  {
+      "code": "A",
+      "name": "Entrar no modo de inserção no final da linha"
+  },
+  {
+      "code": "Esc",
+      "name": "Sair do modo de inserção e voltar para o modo normal"
+  },
+  {
+      "code": ":set syntax=<linguagem>",
+      "name": "Definir a linguagem de programação para destacar a sintaxe"
+  },
+  {
+      "code": ":help",
+      "name": "Abrir o manual de ajuda do Vim"
+  },
+  {
+      "code": ":vsp",
+      "name": "Abrir o arquivo em uma nova janela dividida verticalmente"
+  },
+  {
+      "code": ":sp",
+      "name": "Abrir o arquivo em uma nova janela dividida horizontalmente"
+  },
+  {
+      "code": "Ctrl+w, h",
+      "name": "Mover para a janela à esquerda"
+  },
+  {
+      "code": "Ctrl+w, l",
+      "name": "Mover para a janela à direita"
+  },
+  {
+      "code": "Ctrl+w, j",
+      "name": "Mover para a janela abaixo"
+  },
+  {
+      "code": "Ctrl+w, k",
+      "name": "Mover para a janela acima"
+  },
+  {
+      "code": ":tabnew",
+      "name": "Abrir uma nova aba"
+  },
+  {
+      "code": ":tabnext",
+      "name": "Ir para a próxima aba"
+  },
+  {
+      "code": ":tabprev",
+      "name": "Ir para a aba anterior"
+  }
+]

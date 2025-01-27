@@ -1,0 +1,190 @@
+[
+  {
+      "code": "cd <diretório>",
+      "name": "mudar para o diretório especificado"
+  },
+  {
+      "code": "ls",
+      "name": "listar o conteúdo do diretório atual"
+  },
+  {
+      "code": "mkdir <nome_pasta>",
+      "name": "criar uma nova pasta"
+  },
+  {
+      "code": "rmdir <nome_pasta>",
+      "name": "remover uma pasta vazia"
+  },
+  {
+      "code": "rm <arquivo>",
+      "name": "deletar um arquivo"
+  },
+  {
+      "code": "rm -rf <pasta>",
+      "name": "deletar uma pasta e seu conteúdo"
+  },
+  {
+      "code": "mv <origem> <destino>",
+      "name": "mover um arquivo ou pasta"
+  },
+  {
+      "code": "cp <origem> <destino>",
+      "name": "copiar um arquivo ou pasta"
+  },
+  {
+      "code": "rename <arquivo> <novo_nome>",
+      "name": "renomear um arquivo ou pasta"
+  },
+  {
+      "code": "ps aux",
+      "name": "exibir todos os processos em execução"
+  },
+  {
+      "code": "kill <PID>",
+      "name": "finalizar um processo pelo ID"
+  },
+  {
+      "code": "killall <nome_processo>",
+      "name": "finalizar todos os processos de um nome específico"
+  },
+  {
+      "code": "exit",
+      "name": "fechar o terminal"
+  },
+  {
+      "code": "uname -a",
+      "name": "exibir informações sobre o sistema operacional"
+  },
+  {
+      "code": "ifconfig",
+      "name": "exibir informações de rede, como o endereço IP"
+  },
+  {
+      "code": "hostname",
+      "name": "exibir o nome do computador"
+  },
+  {
+      "code": "df -h",
+      "name": "exibir o uso de disco do sistema"
+  },
+  {
+      "code": "free -h",
+      "name": "exibir o uso de memória do sistema"
+  },
+  {
+      "code": "top",
+      "name": "exibir os processos em tempo real"
+  },
+  {
+      "code": "ping <endereço>",
+      "name": "testar a conectividade com outro dispositivo ou servidor"
+  },
+  {
+      "code": "traceroute <endereço>",
+      "name": "rastrear o caminho até um destino"
+  },
+  {
+      "code": "netstat",
+      "name": "exibir as conexões de rede ativas e suas portas"
+  },
+  {
+      "code": "nslookup <domínio>",
+      "name": "obter informações sobre um domínio específico"
+  },
+  {
+      "code": "sudo shutdown -h now",
+      "name": "desligar o sistema imediatamente"
+  },
+  {
+      "code": "sudo reboot",
+      "name": "reiniciar o sistema"
+  },
+  {
+      "code": "sudo softwareupdate -l",
+      "name": "listar as atualizações disponíveis do sistema"
+  },
+  {
+      "code": "sudo softwareupdate -i <atualização>",
+      "name": "instalar uma atualização específica"
+  },
+  {
+      "code": "tar -xvf <arquivo.tar>",
+      "name": "extrair arquivos de um arquivo .tar"
+  },
+  {
+      "code": "gzip <arquivo>",
+      "name": "comprimir um arquivo com gzip"
+  },
+  {
+      "code": "gunzip <arquivo.gz>",
+      "name": "descomprimir um arquivo .gz"
+  },
+  {
+      "code": "chmod +x <arquivo>",
+      "name": "tornar um arquivo executável"
+  },
+  {
+      "code": "chown <usuário>:<grupo> <arquivo>",
+      "name": "alterar o proprietário de um arquivo"
+  },
+  {
+      "code": "scp <arquivo> <usuario>@<host>:<destino>",
+      "name": "copiar um arquivo para outro sistema via SSH"
+  },
+  {
+      "code": "rsync -av <origem> <destino>",
+      "name": "sincronizar arquivos entre sistemas"
+  },
+  {
+      "code": "grep <expressão> <arquivo>",
+      "name": "buscar por uma expressão dentro de um arquivo"
+  },
+  {
+      "code": "find <diretório> -name <arquivo>",
+      "name": "encontrar um arquivo em um diretório"
+  },
+  {
+      "code": "history",
+      "name": "exibir o histórico de comandos"
+  },
+  {
+      "code": "alias <nome>='<comando>'",
+      "name": "criar um atalho para um comando"
+  },
+  {
+      "code": "man <comando>",
+      "name": "abrir o manual de um comando"
+  },
+  {
+      "code": "whoami",
+      "name": "exibir o nome do usuário atual"
+  },
+  {
+      "code": "sudo su",
+      "name": "obter privilégios de superusuário"
+  },
+  {
+      "code": "open <arquivo>",
+      "name": "abrir um arquivo ou aplicativo"
+  },
+  {
+      "code": "defaults write <comando>",
+      "name": "alterar configurações do sistema através do terminal"
+  },
+  {
+      "code": "pmset sleepnow",
+      "name": "colocar o Mac para dormir imediatamente"
+  },
+  {
+      "code": "diskutil list",
+      "name": "listar todos os discos e volumes no Mac"
+  },
+  {
+      "code": "diskutil eject <dispositivo>",
+      "name": "ejetar um dispositivo de armazenamento"
+  },
+  {
+      "code": "diskutil eraseDisk <formato> <dispositivo>",
+      "name": "formatar um disco no Mac"
+  }
+]
