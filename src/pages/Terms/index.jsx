@@ -4,7 +4,7 @@ export const Terms = () => {
   return (
      <article>
         <header>
-            <h1>terms</h1>
+            <h1>termos</h1>
         </header>
 
         <section>

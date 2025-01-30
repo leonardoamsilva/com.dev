@@ -16,6 +16,7 @@ import { Linux } from './pages/Linux';
 import { Mac } from './pages/Mac';
 import { Vscode } from './pages/Vscode';
 import { Vim } from './pages/Vim';
+import { Contact } from './pages/Contact';
 
 
 
@@ -38,6 +39,7 @@ root.render(
         <Route path='/vscode' element={<Vscode />} />
         <Route path='/vim' element={<Vim />} />
         <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path='/terms' element={<Terms />} />
         <Route path='/privacy' element={<Privacy />} />
         <Route path='*' element={<Construction />} />

@@ -4,7 +4,7 @@ export const Privacy = () => {
     return (
         <article>
             <header>
-                <h1>Política de Privacidade - comandos.dev</h1>
+                <h1>política de privacidade - comandos.dev</h1>
             </header>
         
             <section>
