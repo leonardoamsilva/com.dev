@@ -1,9 +1,10 @@
+
 import { Code } from '../../components/Code';
 import gitData from '../../assets/commands/git.json'
 
-export const Git = () => {
+export const Git = ({ search }) => {
+
   return (
-    <Code title="git" dataCommand={gitData}/>
+    <Code title="git" dataCommand={gitData} search={search}/>
   );
 };
-

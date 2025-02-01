@@ -1,7 +1,7 @@
 import './style.css';
 
 
-export const Code = ({ title, dataCommand }) => {
+export const Code = ({ title, dataCommand, search }) => {
   
    // Função para copiar o texto do elemento pai do botão clicado
   const copiarTexto = (e) => {
@@ -22,12 +22,32 @@ export const Code = ({ title, dataCommand }) => {
       });
   };
 
+  const filteredCommands = dataCommand.filter((command) =>
+    command.name.toLowerCase().includes(search.toLowerCase()) || 
+    command.code.toLowerCase().includes(search.toLowerCase())
+  );
+
     return (
       <>
         <h1>{title}</h1>
-        {dataCommand.map((command, index) => (
-          <code key={index} ><li>{command.name}</li><p className='parent-element'>{command.code}<svg onClick={copiarTexto} className="copy copyButtonIcon_y97N" viewBox="0 0 24 24"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg></p></code>
-        ))}
+        {filteredCommands.length > 0 ? (
+        filteredCommands.map((command, index) => (
+          <code key={index}>
+            <li>{command.name}</li>
+            <p className='parent-element'>{command.code}
+              <svg
+                onClick={copiarTexto}
+                className="copy copyButtonIcon_y97N"
+                viewBox="0 0 24 24"
+              >
+                <path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path>
+              </svg>
+            </p>
+          </code>
+        ))
+      ) : (
+          <p>Não encontramos nenhum <strong>comando</strong> que corresponda à sua busca.</p>
+        )}
       </>
     );
   };

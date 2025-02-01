@@ -1,0 +1,16 @@
+#search {
+  border: 3px solid #1B1B1B;
+  border-radius: 9px;
+  padding: 7px;
+  transition: border-color 0.3s ease;
+}
+
+#search:focus {
+  border:3px solid #82aaff;
+  outline: none;
+}
+
+#search::placeholder {
+  color: #1B1B1B;
+  font-weight: 500;
+}

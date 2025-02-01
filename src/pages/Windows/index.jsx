@@ -1,9 +1,9 @@
 import { Code } from '../../components/Code';
 import windowsData from '../../assets/commands/windows.json'
 
-export const Windows = () => {
+export const Windows = ({ search }) => {
   return (
-    <Code title="windows" dataCommand={windowsData}/>
+    <Code title="windows" dataCommand={windowsData} search={search}/>
   );
 };
 

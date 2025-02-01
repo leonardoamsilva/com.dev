@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './style.css'
 
 export const Terms = () => {
@@ -8,7 +9,7 @@ export const Terms = () => {
         </header>
 
         <section>
-            <h2>aceitação dos Termos</h2>
+            <h2>aceitação dos termos</h2>
             <p>ao acessar ou usar o site <strong>comandos.dev</strong>, você concorda em
                 cumprir e estar vinculado aos termos e condições descritos abaixo. Se você não concorda com estes
                 termos, por favor, não utilize o site.</p>
@@ -33,7 +34,7 @@ export const Terms = () => {
         </section>
 
         <section>
-            <h2>conteúdo Gerado pelo Usuário</h2>
+            <h2>conteúdo gerado pelo usuário</h2>
             <p>os usuários podem contribuir com comandos e outros conteúdos para o site. Ao enviar conteúdo, você
                 garante que tem o direito de compartilhá-lo e concorda com a seguinte licença:</p>
             <ul>
@@ -46,7 +47,7 @@ export const Terms = () => {
         </section>
 
         <section>
-            <h2>comportamento e Proibições</h2>
+            <h2>comportamento e proibições</h2>
             <p>ao utilizar o <strong>comandos.dev</strong>, você concorda em não:</p>
             <ul>
                 <li>submeter ou compartilhar conteúdo que seja ilegal, ofensivo, prejudicial ou que viole os direitos de
@@ -58,7 +59,7 @@ export const Terms = () => {
         </section>
 
         <section>
-            <h2>isenção de Responsabilidade</h2>
+            <h2>isenção de responsabilidade</h2>
             <p>embora o <strong>comandos.dev</strong> se esforce para fornecer comandos úteis e precisos, o conteúdo
                 compartilhado no site é fornecido "como está". O <strong>comandos.dev</strong> não garante a precisão,
                 confiabilidade ou eficácia dos comandos. O uso de qualquer comando compartilhado no site é de sua inteira
@@ -69,7 +70,7 @@ export const Terms = () => {
         </section>
 
         <section>
-            <h2>modificações no Serviço e Termos</h2>
+            <h2>modificações no serviço e termos</h2>
             <p>o <strong>comandos.dev</strong> reserva-se o direito de modificar, suspender ou descontinuar o site ou
                 qualquer parte dele a qualquer momento, sem aviso prévio. Também podemos atualizar ou alterar estes
                 Termos de Uso a qualquer momento. Quaisquer alterações serão publicadas nesta página, e a data de revisão
@@ -81,19 +82,19 @@ export const Terms = () => {
         <section>
             <h2>privacidade</h2>
             <p>o <strong>comandos.dev</strong> coleta e processa informações pessoais conforme descrito na nossa
-                <a href="/politica-de-privacidade"> Política de Privacidade</a>. Ao usar o site, você concorda com a coleta
+                <NavLink to='/privacy'> Política de Privacidade</NavLink>. Ao usar o site, você concorda com a coleta
                 e o uso dessas informações conforme estabelecido na política.</p>
         </section>
 
         <section>
-            <h2>links de Terceiros</h2>
+            <h2>links de terceiros</h2>
             <p>o site pode conter links para sites de terceiros. O <strong>comandos.dev</strong> não se responsabiliza
                 pelo conteúdo, práticas de privacidade ou segurança de sites externos. Ao acessar esses links, você o faz
                 por sua conta e risco.</p>
         </section>
 
         <section>
-            <h2>limitação de Responsabilidade</h2>
+            <h2>limitação de responsabilidade</h2>
             <p>na medida permitida pela lei aplicável, o <strong>comandos.dev</strong> não será responsável por quaisquer
                 danos, perdas ou prejuízos resultantes do uso ou da incapacidade de uso da plataforma, incluindo danos
                 diretos, indiretos, incidentais, especiais ou consequenciais.</p>
@@ -106,7 +107,7 @@ export const Terms = () => {
 
         <section>
             <h2>contato</h2>
-            <p>se você tiver dúvidas sobre estes Termos de Uso ou sobre o <strong>comandos.dev</strong>, entre em contato conosco através do seguinte endereço de e-mail: <a href="mailto:contato@comandos.dev">comandos@gmail.com</a>.</p>
+            <p>se você tiver dúvidas sobre estes Termos de Uso ou sobre o <strong>comandos.dev</strong>, entre em contato conosco através do seguinte endereço de e-mail: <a href="mailto:comandosdev@gmail.com">comandosdev@gmail.com</a>.</p>
         </section>
 
     </article> 

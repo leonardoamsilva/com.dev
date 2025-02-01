@@ -17,12 +17,12 @@ export const Privacy = () => {
             </section>
 
             <section>
-                <h2>informações Coletadas</h2>
+                <h2>informações coletadas</h2>
                 <p>coletamos diferentes tipos de informações com o objetivo de fornecer um serviço melhor e mais
                     personalizado para os usuários. As informações podem ser coletadas de diferentes formas, como descrito
                     abaixo:</p>
 
-                <h3>informações de Navegação</h3>
+                <h3>informações de navegação</h3>
                 <p>também podemos coletar automaticamente informações sobre a sua interação com o site, incluindo:</p>
                 <ul>
                     <li>endereço IP</li>
@@ -32,7 +32,7 @@ export const Privacy = () => {
                     <li>dados de localização (se permitido)</li>
                 </ul>
 
-                <h3>cookies e Tecnologias Semelhantes</h3>
+                <h3>cookies e tecnologias semelhantes</h3>
                 <p>usamos <strong>cookies</strong> e tecnologias semelhantes para melhorar a experiência de navegação do
                     usuário, personalizar conteúdo, analisar o tráfego e realizar outras funções importantes para o
                     funcionamento do site.</p>
@@ -42,7 +42,7 @@ export const Privacy = () => {
             </section>
 
             <section>
-                <h2>uso das Informações</h2>
+                <h2>uso das informações</h2>
                 <p>as informações que coletamos são usadas para os seguintes fins:</p>
                 <ul>
                     <li><strong>fornecer e personalizar serviços:</strong> Usamos suas informações para criar e personalizar sua
@@ -77,7 +77,7 @@ export const Privacy = () => {
             </section>
 
             <section>
-                <h2>seus Direitos</h2>
+                <h2>seus direitos</h2>
                 <p>de acordo com a legislação de privacidade vigente, você tem o direito de:</p>
                 <ul>
                     <li><strong>acessar:</strong> solicitar uma cópia das suas informações pessoais que temos armazenadas.</li>
@@ -87,31 +87,31 @@ export const Privacy = () => {
                     <li><strong>opor-se ao processamento:</strong> você pode, a qualquer momento, optar por não receber
                         comunicações ou retirar seu consentimento para o processamento de suas informações.</li>
                 </ul>
-                <p>se desejar exercer algum desses direitos, entre em contato conosco através do e-mail <a href="mailto:contato@comandos.dev">comandosdev@gmail.com</a>.</p>
+                <p>se desejar exercer algum desses direitos, entre em contato conosco através do e-mail <a href="mailto:comandosdev@gmail.com">comandosdev@gmail.com</a>.</p>
             </section>
 
             <section>
-                <h2>Transferência Internacional de Dados</h2>
-                <p>As informações pessoais coletadas podem ser transferidas e armazenadas em servidores localizados fora do seu país de residência. Se você estiver localizado fora do Brasil, saiba que podemos transferir seus dados para um país com leis de privacidade diferentes das do seu país. Ao utilizar o site, você concorda com a transferência e processamento de seus dados nessas condições.</p>
+                <h2>transferência internacional de dados</h2>
+                <p>as informações pessoais coletadas podem ser transferidas e armazenadas em servidores localizados fora do seu país de residência. Se você estiver localizado fora do Brasil, saiba que podemos transferir seus dados para um país com leis de privacidade diferentes das do seu país. Ao utilizar o site, você concorda com a transferência e processamento de seus dados nessas condições.</p>
             </section>
 
             <section>
-                <h2>Links de Terceiros</h2>
-                <p>O <strong>comandos.dev</strong> pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de
+                <h2>links de terceiros</h2>
+                <p>o <strong>comandos.dev</strong> pode conter links para sites de terceiros. Não somos responsáveis pelas práticas de
                     privacidade ou pelo conteúdo de sites externos. Ao clicar em links de terceiros, você deve revisar as políticas
                     de privacidade desses sites.</p>
             </section>
 
             <section>
-                <h2>Alterações nesta Política de Privacidade</h2>
-                <p>O <strong>comandos.dev</strong> pode atualizar esta Política de Privacidade periodicamente. Quaisquer alterações
+                <h2>alterações nesta política de privacidade</h2>
+                <p>o <strong>comandos.dev</strong> pode atualizar esta Política de Privacidade periodicamente. Quaisquer alterações
                     serão publicadas nesta página, com a data de revisão atualizada no topo. Recomendamos que você revise esta
                     política regularmente para estar ciente de como suas informações estão sendo protegidas.</p>
             </section>
 
             <section>
-                <h2>Contato</h2>
-                <p>Se você tiver dúvidas sobre esta Política de Privacidade ou sobre o uso das suas informações, entre em contato conosco através do e-mail <a href="mailto:contato@comandos.dev">contato@comandos.dev</a>.</p>
+                <h2>contato</h2>
+                <p>se você tiver dúvidas sobre esta Política de Privacidade ou sobre o uso das suas informações, entre em contato conosco através do e-mail <a href="mailto:comandosdev@gmail.com">comandosdev@gmail.com</a>.</p>
             </section>
 
         </article>

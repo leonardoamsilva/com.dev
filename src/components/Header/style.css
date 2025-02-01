@@ -9,16 +9,15 @@
   width: 100%;
 }
 
-#search {
-  border: none;
-  border-radius: 9px;
-  padding: 7px;
+.header li  {
+  width: 24px;
+  height: 24px;
 }
 
 .header ul {
   display: flex;
   gap: 15px;
-  align-items: flex-start;
+  align-items: end;
 }
 
 .header ul a svg:hover g{

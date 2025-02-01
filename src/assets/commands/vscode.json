@@ -1,142 +1,142 @@
 [
   {
       "code": "code .",
-      "name": "Abrir o VSCode no diretório atual"
+      "name": "abrir o VSCode no diretório atual"
   },
   {
       "code": "code <arquivo>",
-      "name": "Abrir um arquivo específico no VSCode"
+      "name": "abrir um arquivo específico no VSCode"
   },
   {
       "code": "code --new-window",
-      "name": "Abrir uma nova janela do VSCode"
+      "name": "abrir uma nova janela do VSCode"
   },
   {
       "code": "code --disable-extensions",
-      "name": "Abrir o VSCode sem extensões"
+      "name": "abrir o VSCode sem extensões"
   },
   {
-      "code": "Ctrl+P",
-      "name": "Abrir rapidamente um arquivo pelo nome"
+      "code": "ctrl+p",
+      "name": "abrir rapidamente um arquivo pelo nome"
   },
   {
-      "code": "Ctrl+Shift+P",
-      "name": "Abrir a paleta de comandos"
+      "code": "ctrl+shift+p",
+      "name": "abrir a paleta de comandos"
   },
   {
-      "code": "Ctrl+Shift+N",
-      "name": "Abrir uma nova janela do VSCode"
+      "code": "ctrl+shift+n",
+      "name": "abrir uma nova janela do VSCode"
   },
   {
-      "code": "Ctrl+`",
-      "name": "Alternar o terminal integrado"
+      "code": "ctrl+`",
+      "name": "alternar o terminal integrado"
   },
   {
-      "code": "Ctrl+Shift+`",
-      "name": "Abrir um novo terminal integrado"
+      "code": "ctrl+shift+`",
+      "name": "abrir um novo terminal integrado"
   },
   {
-      "code": "Ctrl+B",
-      "name": "Alternar a barra lateral"
+      "code": "ctrl+b",
+      "name": "alternar a barra lateral"
   },
   {
-      "code": "Ctrl+Shift+E",
-      "name": "Ir para o Explorer (exploração de arquivos)"
+      "code": "ctrl+shift+e",
+      "name": "ir para o Explorer (exploração de arquivos)"
   },
   {
-      "code": "Ctrl+Shift+F",
-      "name": "Abrir a pesquisa global"
+      "code": "ctrl+shift+f",
+      "name": "abrir a pesquisa global"
   },
   {
-      "code": "Ctrl+H",
-      "name": "Abrir a pesquisa e substituir"
+      "code": "ctrl+h",
+      "name": "abrir a pesquisa e substituir"
   },
   {
-      "code": "Ctrl+Shift+M",
-      "name": "Abrir o painel de problemas"
+      "code": "ctrl+shift+m",
+      "name": "abrir o painel de problemas"
   },
   {
-      "code": "Ctrl+Shift+X",
-      "name": "Abrir a aba de extensões"
+      "code": "ctrl+shift+x",
+      "name": "abrir a aba de extensões"
   },
   {
-      "code": "Ctrl+Shift+D",
-      "name": "Abrir o painel de depuração"
+      "code": "ctrl+shift+d",
+      "name": "abrir o painel de depuração"
   },
   {
-      "code": "Ctrl+K, Ctrl+S",
-      "name": "Abrir o menu de atalhos de teclado"
+      "code": "ctrl+k, ctrl+s",
+      "name": "abrir o menu de atalhos de teclado"
   },
   {
       "code": "F8",
-      "name": "Ir para o próximo erro ou aviso"
+      "name": "ir para o próximo erro ou aviso"
   },
   {
-      "code": "Shift+F8",
-      "name": "Ir para o erro ou aviso anterior"
+      "code": "shift+F8",
+      "name": "ir para o erro ou aviso anterior"
   },
   {
-      "code": "Ctrl+Shift+L",
-      "name": "Selecionar todas as ocorrências da palavra"
+      "code": "ctrl+shift+l",
+      "name": "selecionar todas as ocorrências da palavra"
   },
   {
-      "code": "Alt+Shift+F",
-      "name": "Formatar o código selecionado ou o arquivo"
+      "code": "alt+shift+f",
+      "name": "formatar o código selecionado ou o arquivo"
   },
   {
-      "code": "Ctrl+/",
-      "name": "Comentar ou descomentar a linha de código atual"
+      "code": "ctrl+/",
+      "name": "comentar ou descomentar a linha de código atual"
   },
   {
-      "code": "Ctrl+Space",
-      "name": "Exibir sugestões de autocompletar"
+      "code": "ctrl+space",
+      "name": "exibir sugestões de autocompletar"
   },
   {
-      "code": "Ctrl+Shift+I",
-      "name": "Formatar o código do arquivo inteiro"
+      "code": "ctrl+shift+i",
+      "name": "formatar o código do arquivo inteiro"
   },
   {
-      "code": "Ctrl+K, Ctrl+0",
-      "name": "Fechar todos os editores abertos"
+      "code": "ctrl+k, ctrl+0",
+      "name": "fechar todos os editores abertos"
   },
   {
-      "code": "Ctrl+Tab",
-      "name": "Alternar entre os arquivos abertos"
+      "code": "ctrl+tab",
+      "name": "alternar entre os arquivos abertos"
   },
   {
-      "code": "Ctrl+W",
-      "name": "Fechar o arquivo atual"
+      "code": "ctrl+w",
+      "name": "fechar o arquivo atual"
   },
   {
-      "code": "Ctrl+Shift+V",
-      "name": "Visualizar Markdown"
+      "code": "ctrl+shift+v",
+      "name": "visualizar markdown"
   },
   {
-      "code": "Alt+Z",
-      "name": "Alternar o ajuste de linha"
+      "code": "alt+z",
+      "name": "alternar o ajuste de linha"
   },
   {
-      "code": "Ctrl+Shift+\\",
-      "name": "Ir para o parêntese ou chave correspondente"
+      "code": "ctrl+shift+\\",
+      "name": "ir para o parêntese ou chave correspondente"
   },
   {
-      "code": "Ctrl+K, Ctrl+T",
-      "name": "Alterar o tema de cores do VSCode"
+      "code": "ctrl+k, ctrl+t",
+      "name": "alterar o tema de cores do VSCode"
   },
   {
-      "code": "Ctrl+Shift+P, Git: Clone",
-      "name": "Clonar um repositório Git no VSCode"
+      "code": "ctrl+shift+p, git: clone",
+      "name": "clonar um repositório Git no VSCode"
   },
   {
-      "code": "Ctrl+Shift+P, Git: Pull",
-      "name": "Fazer pull de alterações de um repositório Git"
+      "code": "ctrl+shift+p, git: pull",
+      "name": "fazer pull de alterações de um repositório Git"
   },
   {
-      "code": "Ctrl+Shift+P, Git: Push",
+      "code": "ctrl+shift+p, git: push",
       "name": "Fazer push de alterações para o repositório Git"
   },
   {
-      "code": "Ctrl+Shift+P, Git: Commit",
-      "name": "Cometer alterações no repositório Git"
+      "code": "ctrl+shift+p, git: commit",
+      "name": "cometer alterações no repositório Git"
   }
 ]
