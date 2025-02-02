@@ -15,6 +15,7 @@ import { Vscode } from '../pages/Vscode';
 import { Vim } from '../pages/Vim';
 import { Contact } from '../pages/Contact';
 import { useState } from 'react';
+import { Info } from '../components/Info';
 
 export const App = () => {
   const [search, setSearch] = useState('');
@@ -45,6 +46,7 @@ export const App = () => {
       </Routes>
 
       </section>
+      <Info />
       </main>
       <Footer />
     </div>
