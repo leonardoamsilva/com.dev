@@ -1,7 +1,6 @@
 .info p {  
   border-left: #464646 solid 1px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding: 15px;
   font-size: 0.9rem;
   width: 200px;
   color: white;

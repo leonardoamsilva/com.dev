@@ -2,7 +2,7 @@ import './style.css'
 
 export const Privacy = () => {
     return (
-        <article>
+        <article className='container'>
             <header>
                 <h1>política de privacidade - comandos.dev</h1>
             </header>

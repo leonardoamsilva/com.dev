@@ -16,6 +16,7 @@ import { Vim } from '../pages/Vim';
 import { Contact } from '../pages/Contact';
 import { useState } from 'react';
 import { Info } from '../components/Info';
+import { Faq } from '../pages/Faq';
 
 export const App = () => {
   const [search, setSearch] = useState('');
@@ -39,6 +40,7 @@ export const App = () => {
         <Route path='/vscode' element={<Vscode search={search}/>} />
         <Route path='/vim' element={<Vim search={search}/>} />
         <Route path='/about' element={<About />} />
+        <Route path='/faq' element={<Faq />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/terms' element={<Terms />} />
         <Route path='/privacy' element={<Privacy />} />

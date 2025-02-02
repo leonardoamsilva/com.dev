@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export const Contact = () => {
   return(
-    <>
+    <div className='container'>
     <header>
         <h1>contate-nos</h1>
         <p>tem alguma dúvida ou sugestão? Estamos aqui para ajudar!</p>
@@ -17,6 +17,6 @@ export const Contact = () => {
           <li>gitHub: <NavLink to="https://github.com/comandos-dev" target="_blank" rel="noopener noreferrer">ComandosDev</NavLink></li>
         </ul>
       </section>
-    </>
+    </div>
   );
 };

@@ -3,7 +3,7 @@ import './style.css'
 
 export const Terms = () => {
   return (
-     <article>
+     <article className='container'>
         <header>
             <h1>termos</h1>
         </header>

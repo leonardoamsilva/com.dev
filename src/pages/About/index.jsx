@@ -1,6 +1,6 @@
 export const About = () => {
   return(
-    <>
+    <div className='container'>
     <h1>sobre</h1>
         <p>o <strong>comandos.dev</strong> é uma plataforma que centraliza diversos comandos essenciais usados pela
           comunidade de desenvolvedores. O objetivo principal é reunir essas informações de forma prática e acessível em
@@ -13,6 +13,6 @@ export const About = () => {
           simplicidade, como o próprio site. Se tiver sugestões de melhorias ou quiser apoiar essa iniciativa, não
           hesite
           em nos contatar; sua colaboração será muito valiosa para nós. <a href="/">Confira onde nos encontrar</a>.</p>
-    </>
+    </div>
   );
 };
