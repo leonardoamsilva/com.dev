@@ -1,21 +1,21 @@
-import { Footer } from '../components/Footer';
-import { Header } from '../components/Header';
-import { Sidebar } from '../components/Sidebar';
+import { Footer } from '../components/layout/Footer';
+import { Header } from '../components/layout/Header';
+import { Sidebar } from '../components/layout/Sidebar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Home } from '../pages/Home';
 import { About } from '../pages/About';
-import { Git } from '../pages/Git';
+import { Git } from '../pages/platforms/Git';
 import { Construction } from '../pages/Construction';
 import { Terms } from '../pages/Terms';
 import { Privacy } from '../pages/Privacy';
-import { Windows } from '../pages/Windows';
-import { Linux } from '../pages/Linux';
-import { Mac } from '../pages/Mac';
-import { Vscode } from '../pages/Vscode';
-import { Vim } from '../pages/Vim';
+import { Windows } from '../pages/platforms/Windows';
+import { Linux } from '../pages/platforms/Linux';
+import { Mac } from '../pages/platforms/Mac';
+import { Vscode } from '../pages/platforms/Vscode';
+import { Vim } from '../pages/platforms/Vim';
 import { Contact } from '../pages/Contact';
 import { useState } from 'react';
-import { Info } from '../components/Info';
+import { Info } from '../components/common/Info';
 import { Faq } from '../pages/Faq';
 
 export const App = () => {

@@ -1,7 +1,7 @@
 import './style.css';
-import logo from "../../assets/images/comandos.dev.svg";
+import logo from "../../../assets/images/comandos.dev.svg";
 import { NavLink } from 'react-router-dom';
-import { Search } from '../Search';
+import { Search } from '../../common/Search';
 
 export const Header = ({ setSearch }) => {
 

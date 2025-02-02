@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import useDebounce from '../../Hooks/useDebounce';
+import useDebounce from '../../../Hooks/useDebounce';
 import './style.css';
 
 export const Search = ({ setSearch }) => {

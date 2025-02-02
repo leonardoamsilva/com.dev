@@ -1,10 +1,10 @@
 import './style.css';
-import git from "../../assets/images/git.svg";
-import windows from "../../assets/images/windows.svg"
-import linux from "../../assets/images/linux.svg"
-import mac from "../../assets/images/mac.svg"
-import vscode from "../../assets/images/vscode.svg"
-import vim from "../../assets/images/vim.svg"
+import git from "../../../assets/images/git.svg";
+import windows from "../../../assets/images/windows.svg"
+import linux from "../../../assets/images/linux.svg"
+import mac from "../../../assets/images/mac.svg"
+import vscode from "../../../assets/images/vscode.svg"
+import vim from "../../../assets/images/vim.svg"
 import { NavLink } from 'react-router-dom';
 
 export const Sidebar = () => {
