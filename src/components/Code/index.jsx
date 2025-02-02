@@ -1,7 +1,7 @@
 import './style.css';
 
 
-export const Code = ({ title, dataCommand, search }) => {
+export const Code = ({ title, dataCommand, search, img }) => {
   
    // Função para copiar o texto do elemento pai do botão clicado
   const copiarTexto = (e) => {
@@ -29,7 +29,7 @@ export const Code = ({ title, dataCommand, search }) => {
 
     return (
       <>
-        <h1>{title}</h1>
+        <h1><img src={img} alt='simbolo da plataforma'/> {title}</h1>
         {filteredCommands.length > 0 ? (
         filteredCommands.map((command, index) => (
           <code key={index}>

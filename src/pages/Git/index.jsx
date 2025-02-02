@@ -1,10 +1,10 @@
-
+import git from "../../assets/images/git.svg";
 import { Code } from '../../components/Code';
 import gitData from '../../assets/commands/git.json'
 
 export const Git = ({ search }) => {
 
   return (
-    <Code title="git" dataCommand={gitData} search={search}/>
+    <Code title="git" img={git} dataCommand={gitData} search={search}/>
   );
 };
