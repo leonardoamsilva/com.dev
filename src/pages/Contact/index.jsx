@@ -14,7 +14,7 @@ export const Contact = () => {
         <p><strong>redes sociais:</strong></p>
         <ul>
           <li>twitter: <NavLink to="https://twitter.com/comandosdev" target="_blank" rel="noopener noreferrer"> @comandosdev</NavLink></li>
-          <li>gitHub: <NavLink to="https://github.com/comandos-dev" target="_blank" rel="noopener noreferrer">ComandosDev</NavLink></li>
+          <li>gitHub: <NavLink to="https://github.com/comandos-dev" target="_blank" rel="noopener noreferrer">comandosdev</NavLink></li>
         </ul>
       </section>
     </div>
