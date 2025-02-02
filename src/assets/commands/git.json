@@ -16,7 +16,7 @@
 		"name":"listar configurações"
 	},
 	{
-		"code":"git clone &#60https://url-do-link&#62",
+		"code":"git clone <https://url-do-link>",
 		"name":"clona o código do repositório"
 	},
 	{
@@ -68,7 +68,7 @@
 		"name":"exibir histórico com diff das duas últimas alterações"
 	},
 	{
-		"code":"git log -- &#60caminho_do_arquivo&#62",
+		"code":"git log -- <caminho_do_arquivo>",
 		"name":"exibir histórico de um arquivo específico"
 	},
 	{
@@ -104,7 +104,7 @@
 		"name":"desvincular um repositório remoto"
 	},
 	{
-		"code":"git push -u origin &#60nome_branch&#62",
+		"code":"git push -u origin <nome_branch>",
 		"name":"o primeiro push nome do repositório remoto e o branch."
 	},
 	{
@@ -124,19 +124,19 @@
 		"name":"criando uma tag anotada"
 	},
 	{
-		"code":"git branch &#60nome-da-branch&#62",
+		"code":"git branch <nome-da-branch>",
 		"name":"criando um novo branch"
 	},
 	{
-		"code":"git checkout &#60nome-da-ramificação&#62",
+		"code":"git checkout <nome-da-ramificação>",
 		"name":"trocando de branch"
 	},
 	{
-		"code":"git checkout -b &#60nome-da-ramificação&#62",
+		"code":"git checkout -b <nome-da-ramificação>",
 		"name":"cria e vai para o novo branch"
 	},
 	{
-		"code":"git branch -d &#60nome-da-ramificação&#62",
+		"code":"git branch -d <nome-da-ramificação>",
 		"name":"apagar um branch"
 	},
 	{

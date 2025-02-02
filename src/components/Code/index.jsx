@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import './style.css';
 
 
@@ -6,11 +7,10 @@ export const Code = ({ title, dataCommand, search, img }) => {
    // Função para copiar o texto do elemento pai do botão clicado
   const copiarTexto = (e) => {
     // Obtém o elemento pai (parentElement) do botão clicado
-    const texto = e.target.closest('.parent-element').textContent; // Obtém o texto do pai
+    const texto = e.target.closest('.parent-element').textContent.trim(); // Obtém o texto do pai
 
     navigator.clipboard.writeText(texto)
       .then(() => {
-        console.log(e.target)
         e.target.style.color = "green";
         setTimeout(() => {
           e.target.style.color = "currentColor";
@@ -22,10 +22,13 @@ export const Code = ({ title, dataCommand, search, img }) => {
       });
   };
 
-  const filteredCommands = dataCommand.filter((command) =>
-    command.name.toLowerCase().includes(search.toLowerCase()) || 
-    command.code.toLowerCase().includes(search.toLowerCase())
-  );
+  const filteredCommands = useMemo(() => {
+    if(!search) return dataCommand;
+    return dataCommand.filter((command) =>
+      command.name.toLowerCase().includes(search.toLowerCase()) ||
+      command.code.toLowerCase().includes(search.toLowerCase())
+    );
+  }, [search, dataCommand]);
 
     return (
       <>
@@ -46,7 +49,7 @@ export const Code = ({ title, dataCommand, search, img }) => {
           </code>
         ))
       ) : (
-          <p>Não encontramos nenhum <strong>comando</strong> que corresponda à sua busca.</p>
+        <p>Ops! 😔 Não encontramos nenhum <strong>comando</strong> que corresponda à sua pesquisa. Que tal tentar um termo diferente? Se precisar de ajuda, estamos aqui! 😊</p>
         )}
       </>
     );
