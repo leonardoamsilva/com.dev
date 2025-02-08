@@ -10,7 +10,7 @@ export const Contact = () => {
 
       <section>
         <h2>outros canais de contato</h2>
-        <p><strong>e-mail de suporte:</strong> <NavLink to="mailto:suporte@comandos.dev">comandosdev@gmail.com</NavLink></p>
+        <p><strong>e-mail de suporte:</strong> <NavLink to="mailto:comandosdev@gmail.com">comandosdev@gmail.com</NavLink></p>
         <p><strong>redes sociais:</strong></p>
         <ul>
           <li>twitter: <NavLink to="https://twitter.com/comandosdev" target="_blank" rel="noopener noreferrer"> @comandosdev</NavLink></li>

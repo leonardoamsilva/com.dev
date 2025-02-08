@@ -13,5 +13,5 @@ export const Footer = () => {
         <li><NavLink to="/privacy"> privacy</NavLink></li>
       </ul>
     </footer>
-)
+);
 }
