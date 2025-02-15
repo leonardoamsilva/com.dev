@@ -1,0 +1,198 @@
+[
+    {
+        "code": "ver",
+        "name": "exibir a versão do Windows"
+    },
+    {
+        "code": "diskpart",
+        "name": "abrir o utilitário de gerenciamento de discos"
+    },
+    {
+        "code": "help",
+        "name": "listar comandos disponíveis dentro do DiskPart (precisa ser aberto antes com 'diskpart')"
+    },
+    {
+        "code": "help <comando>",
+        "name": "exibir informações detalhadas sobre um comando específico dentro do DiskPart"
+    },
+    {
+        "code": "cls",
+        "name": "limpar a tela do terminal"
+    },
+    {
+        "code": "exit",
+        "name": "fechar o prompt de comando"
+    },
+    {
+        "code": "echo Olá, mundo!",
+        "name": "exibir uma mensagem no terminal"
+    },
+    {
+        "code": "echo %USERNAME%",
+        "name": "exibir o nome do usuário logado"
+    },
+    {
+        "code": "dir",
+        "name": "listar arquivos e diretórios"
+    },
+    {
+        "code": "dir /s",
+        "name": "listar arquivos e diretórios de forma recursiva"
+    },
+    {
+        "code": "cd C:\\Users",
+        "name": "navegar para um diretório específico"
+    },
+    {
+        "code": "cd ..",
+        "name": "voltar um nível no diretório"
+    },
+    {
+        "code": "mkdir C:\\teste",
+        "name": "criar um diretório"
+    },
+    {
+        "code": "rmdir C:\\teste",
+        "name": "remover um diretório vazio"
+    },
+    {
+        "code": "rmdir /s /q C:\\teste",
+        "name": "remover um diretório e seu conteúdo"
+    },
+    {
+        "code": "del C:\\teste\\arquivo.txt",
+        "name": "excluir um arquivo"
+    },
+    {
+        "code": "copy C:\\teste\\arquivo.txt C:\\backup\\",
+        "name": "copiar um arquivo"
+    },
+    {
+        "code": "move C:\\teste\\arquivo.txt C:\\backup\\",
+        "name": "mover um arquivo"
+    },
+    {
+        "code": "ipconfig",
+        "name": "exibir informações de rede e IP"
+    },
+    {
+        "code": "ipconfig /all",
+        "name": "exibir informações detalhadas da rede"
+    },
+    {
+        "code": "ping google.com",
+        "name": "testar conectividade (ping)"
+    },
+    {
+        "code": "netstat -an",
+        "name": "exibir conexões de rede ativas"
+    },
+    {
+        "code": "tasklist",
+        "name": "listar processos em execução"
+    },
+    {
+        "code": "taskkill /IM notepad.exe /F",
+        "name": "finalizar um processo pelo nome"
+    },
+    {
+        "code": "taskkill /PID 1234 /F",
+        "name": "finalizar um processo pelo ID"
+    },
+    {
+        "code": "shutdown /s /t 60",
+        "name": "desligar o computador em 60 segundos"
+    },
+    {
+        "code": "shutdown /r /t 60",
+        "name": "reiniciar o computador em 60 segundos"
+    },
+    {
+        "code": "shutdown /a",
+        "name": "cancelar o desligamento agendado"
+    },
+    {
+        "code": "wmic os get name",
+        "name": "exibir informações do sistema operacional"
+    },
+    {
+        "code": "wmic cpu get name",
+        "name": "exibir informações do processador"
+    },
+    {
+        "code": "net user",
+        "name": "listar usuários locais"
+    },
+    {
+        "code": "net localgroup",
+        "name": "listar grupos locais"
+    },
+    {
+        "code": "net user NomeDoUsuario /add",
+        "name": "criar um novo usuário"
+    },
+    {
+        "code": "net user NomeDoUsuario /delete",
+        "name": "excluir um usuário"
+    },
+    {
+        "code": "systeminfo",
+        "name": "exibir informações detalhadas do sistema"
+    },
+    {
+        "code": "set var=Comandos Dev",
+        "name": "criar uma variável de ambiente temporária"
+    },
+    {
+        "code": "echo %var%",
+        "name": "exibir o valor de uma variável de ambiente"
+    },
+    {
+        "code": "chkdsk C:",
+        "name": "verificar erros no disco"
+    },
+    {
+        "code": "sfc /scannow",
+        "name": "verificar e corrigir arquivos do sistema"
+    },
+    {
+        "code": "assoc .txt",
+        "name": "exibir o programa associado a um tipo de arquivo"
+    },
+    {
+        "code": "assoc .txt=Wordpad.Document",
+        "name": "alterar o programa associado a um tipo de arquivo"
+    },
+    {
+        "code": "cipher /E /S:C:\\dados",
+        "name": "criptografar arquivos em um diretório"
+    },
+    {
+        "code": "cipher /D /S:C:\\dados",
+        "name": "descriptografar arquivos em um diretório"
+    },
+    {
+        "code": "fsutil fsinfo drives",
+        "name": "listar todas as unidades de disco disponíveis"
+    },
+    {
+        "code": "fsutil volume diskfree C:",
+        "name": "exibir espaço livre no disco"
+    },
+    {
+        "code": "driverquery",
+        "name": "listar todos os drivers instalados"
+    },
+    {
+        "code": "whoami",
+        "name": "exibir o usuário atualmente logado"
+    },
+    {
+        "code": "tree C:\\",
+        "name": "exibir a estrutura de diretórios"
+    },
+    {
+        "code": "pathping google.com",
+        "name": "testar a rota até um host"
+    }
+]

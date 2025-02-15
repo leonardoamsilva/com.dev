@@ -1,6 +1,7 @@
 import './style.css';
 import git from "../../../assets/images/git.svg";
-import windows from "../../../assets/images/windows.svg"
+import powershell from "../../../assets/images/shell.svg";
+import prompt from "../../../assets/images/prompt.svg"
 import linux from "../../../assets/images/linux.svg"
 import mac from "../../../assets/images/mac.svg"
 import vscode from "../../../assets/images/vscode.svg"
@@ -16,8 +17,11 @@ export const Sidebar = () => {
           <NavLink to="/git" className={ativo}>
             <li><img src={git} alt=""/>git</li>
           </NavLink>
-          <NavLink to="/windows" className={ativo}>
-            <li><img src={windows} alt="windows"/> windows</li>
+          <NavLink to="/prompt" className={ativo}>
+            <li><img src={prompt} alt="prompt"/> prompt ( cmd )</li>
+          </NavLink>
+          <NavLink to="/powershell" className={ativo}>
+            <li><img src={powershell} alt="powershell"/> powershell</li>
           </NavLink>
           <NavLink to="/linux" className={ativo}>
             <li><img src={linux} alt="linux"/> linux</li>

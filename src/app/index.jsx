@@ -8,7 +8,7 @@ import { Git } from '../pages/platforms/Git';
 import { Construction } from '../pages/Construction';
 import { Terms } from '../pages/Terms';
 import { Privacy } from '../pages/Privacy';
-import { Windows } from '../pages/platforms/Windows';
+import { Prompt } from '../pages/platforms/Prompt';
 import { Linux } from '../pages/platforms/Linux';
 import { Mac } from '../pages/platforms/Mac';
 import { Vscode } from '../pages/platforms/Vscode';
@@ -17,6 +17,7 @@ import { Contact } from '../pages/Contact';
 import { useState } from 'react';
 import { Info } from '../components/common/Info';
 import { Faq } from '../pages/Faq';
+import { PowerShell } from '../pages/platforms/PowerShell';
 
 export const App = () => {
   const [search, setSearch] = useState('');
@@ -34,7 +35,8 @@ export const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/git' element={<Git search={search}/>} />
-        <Route path='/windows' element={<Windows search={search}/>} />
+        <Route path='/prompt' element={<Prompt search={search}/>} />
+        <Route path='/powershell' element={<PowerShell search={search}/>} />
         <Route path='/linux' element={<Linux search={search}/>} />
         <Route path='/mac' element={<Mac search={search}/>} />
         <Route path='/vscode' element={<Vscode search={search}/>} />

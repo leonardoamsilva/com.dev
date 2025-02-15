@@ -1,0 +1,138 @@
+[
+  {
+      "code": "Get-ExecutionPolicy",
+      "name": "exibir a política de execução atual"
+  },
+  {
+      "code": "Set-ExecutionPolicy RemoteSigned",
+      "name": "permitir a execução de scripts locais"
+  },
+  {
+      "code": "Get-Host",
+      "name": "exibir informações sobre a versão do PowerShell"
+  },
+  {
+      "code": "$PSVersionTable",
+      "name": "mostrar detalhes da versão do PowerShell"
+  },
+  {
+      "code": "Get-Help Get-Process",
+      "name": "exibir ajuda sobre um comando específico"
+  },
+  {
+      "code": "Get-ChildItem",
+      "name": "listar arquivos e diretórios (equivalente a ls)"
+  },
+  {
+      "code": "Get-ChildItem -Path C:\\Users -Recurse",
+      "name": "listar arquivos e diretórios de forma recursiva"
+  },
+  {
+      "code": "New-Item -ItemType File -Path C:\\teste\\meuarquivo.txt",
+      "name": "criar um arquivo"
+  },
+  {
+      "code": "New-Item -ItemType Directory -Path C:\\teste\\meupasta",
+      "name": "criar um diretório"
+  },
+  {
+      "code": "Remove-Item -Path C:\\teste\\meuarquivo.txt",
+      "name": "remover um arquivo"
+  },
+  {
+      "code": "Remove-Item -Path C:\\teste\\meupasta -Recurse",
+      "name": "remover um diretório e seu conteúdo"
+  },
+  {
+      "code": "Copy-Item -Path C:\\teste\\arquivo.txt -Destination C:\\backup\\",
+      "name": "copiar um arquivo"
+  },
+  {
+      "code": "Move-Item -Path C:\\teste\\arquivo.txt -Destination C:\\backup\\",
+      "name": "mover um arquivo"
+  },
+  {
+      "code": "Get-Process",
+      "name": "listar processos em execução"
+  },
+  {
+      "code": "Stop-Process -Name notepad",
+      "name": "finalizar um processo pelo nome"
+  },
+  {
+      "code": "Stop-Process -Id 1234",
+      "name": "finalizar um processo pelo ID"
+  },
+  {
+      "code": "Start-Process notepad",
+      "name": "abrir um programa (exemplo: Bloco de Notas)"
+  },
+  {
+      "code": "Get-Service",
+      "name": "listar serviços do sistema"
+  },
+  {
+      "code": "Start-Service -Name Spooler",
+      "name": "iniciar um serviço (exemplo: spooler de impressão)"
+  },
+  {
+      "code": "Stop-Service -Name Spooler",
+      "name": "parar um serviço"
+  },
+  {
+      "code": "Restart-Service -Name Spooler",
+      "name": "reiniciar um serviço"
+  },
+  {
+      "code": "Test-Connection google.com",
+      "name": "testar conectividade (ping)"
+  },
+  {
+      "code": "Get-NetIPAddress",
+      "name": "exibir IPs da máquina"
+  },
+  {
+      "code": "Get-NetAdapter",
+      "name": "listar interfaces de rede"
+  },
+  {
+      "code": "Get-NetTCPConnection",
+      "name": "exibir conexões TCP ativas"
+  },
+  {
+      "code": "Get-WmiObject Win32_OperatingSystem",
+      "name": "exibir informações do sistema operacional"
+  },
+  {
+      "code": "Get-WmiObject Win32_ComputerSystem",
+      "name": "exibir informações do hardware"
+  },
+  {
+      "code": "Get-LocalUser",
+      "name": "listar usuários locais"
+  },
+  {
+      "code": "Get-LocalGroup",
+      "name": "listar grupos locais"
+  },
+  {
+      "code": "Get-EventLog -LogName System -Newest 10",
+      "name": "exibir os 10 eventos mais recentes do log do sistema"
+  },
+  {
+      "code": "$nome = 'Comandos Dev'",
+      "name": "criar uma variável"
+  },
+  {
+      "code": "Write-Output 'Olá, $nome'",
+      "name": "exibir texto na tela"
+  },
+  {
+      "code": "Get-ChildItem | Out-File arquivos.txt",
+      "name": "redirecionar saída para um arquivo"
+  },
+  {
+      "code": "Get-Content arquivos.txt",
+      "name": "ler um arquivo de texto"
+  }
+]
