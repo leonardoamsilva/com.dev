@@ -32,7 +32,7 @@ export const Code = ({ title, dataCommand, search, img }) => {
 
     return (
       <>
-        <h1><img src={img} alt='simbolo da plataforma'/> {title}</h1>
+        <h1 className='titleCode' ><img src={img} alt='simbolo da plataforma'/> {title}</h1>
         {filteredCommands.length > 0 ? (
         filteredCommands.map((command, index) => (
           <code key={index}>

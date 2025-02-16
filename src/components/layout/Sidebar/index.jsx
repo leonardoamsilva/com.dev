@@ -6,6 +6,7 @@ import linux from "../../../assets/images/linux.svg"
 import mac from "../../../assets/images/mac.svg"
 import vscode from "../../../assets/images/vscode.svg"
 import vim from "../../../assets/images/vim.svg"
+import docker from "../../../assets/images/docker.svg"
 import { NavLink } from 'react-router-dom';
 
 export const Sidebar = () => {
@@ -34,6 +35,9 @@ export const Sidebar = () => {
           </NavLink>
           <NavLink to="/vim" className={ativo}>
             <li><img src={vim} alt="vim"/> vim</li>
+          </NavLink>
+          <NavLink to="/docker" className={ativo}>
+            <li><img src={docker} alt="docker"/> docker</li>
           </NavLink>
         </ul>
       </nav>

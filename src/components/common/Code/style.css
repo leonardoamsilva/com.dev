@@ -40,6 +40,16 @@ code svg:hover {
   cursor: pointer;
 }
 
+.titleCode {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+h1 img {
+  width: 30px;
+}
+
 .copy {
   width: 2rem;
   height: 2rem;

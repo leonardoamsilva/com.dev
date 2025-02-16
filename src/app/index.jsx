@@ -13,6 +13,7 @@ import { Linux } from '../pages/platforms/Linux';
 import { Mac } from '../pages/platforms/Mac';
 import { Vscode } from '../pages/platforms/Vscode';
 import { Vim } from '../pages/platforms/Vim';
+import { Docker } from '../pages/platforms/Docker';
 import { Contact } from '../pages/Contact';
 import { useState } from 'react';
 import { Info } from '../components/common/Info';
@@ -41,6 +42,7 @@ export const App = () => {
         <Route path='/mac' element={<Mac search={search}/>} />
         <Route path='/vscode' element={<Vscode search={search}/>} />
         <Route path='/vim' element={<Vim search={search}/>} />
+        <Route path='/docker' element={<Docker search={search}/>} />
         <Route path='/about' element={<About />} />
         <Route path='/faq' element={<Faq />} />
         <Route path='/contact' element={<Contact />} />

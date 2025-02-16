@@ -1,0 +1,147 @@
+[
+    {
+        "code": "docker --version",
+        "name": "verificar versão do Docker"
+    },
+    {
+        "code": "docker info",
+        "name": "exibir informações do Docker"
+    },
+    {
+        "code": "docker pull <nome_da_imagem>",
+        "name": "baixar uma imagem do Docker Hub"
+    },
+    {
+        "code": "docker images",
+        "name": "listar imagens baixadas"
+    },
+    {
+        "code": "docker rmi <id_da_imagem>",
+        "name": "remover uma imagem do Docker"
+    },
+    {
+        "code": "docker create <nome_da_imagem>",
+        "name": "criar um contêiner a partir de uma imagem"
+    },
+    {
+        "code": "docker run <nome_da_imagem>",
+        "name": "rodar um contêiner"
+    },
+    {
+        "code": "docker run -d <nome_da_imagem>",
+        "name": "rodar um contêiner em segundo plano (detached mode)"
+    },
+    {
+        "code": "docker ps",
+        "name": "listar contêineres em execução"
+    },
+    {
+        "code": "docker ps -a",
+        "name": "listar todos os contêineres (ativos e inativos)"
+    },
+    {
+        "code": "docker stop <id_do_container>",
+        "name": "parar um contêiner em execução"
+    },
+    {
+        "code": "docker start <id_do_container>",
+        "name": "iniciar um contêiner parado"
+    },
+    {
+        "code": "docker restart <id_do_container>",
+        "name": "reiniciar um contêiner"
+    },
+    {
+        "code": "docker rm <id_do_container>",
+        "name": "remover um contêiner"
+    },
+    {
+        "code": "docker logs <id_do_container>",
+        "name": "exibir logs de um contêiner"
+    },
+    {
+        "code": "docker exec -it <id_do_container> /bin/bash",
+        "name": "acessar o terminal de um contêiner em execução"
+    },
+    {
+        "code": "docker network ls",
+        "name": "listar redes Docker"
+    },
+    {
+        "code": "docker network create <nome_da_rede>",
+        "name": "criar uma nova rede Docker"
+    },
+    {
+        "code": "docker network connect <nome_da_rede> <id_do_container>",
+        "name": "conectar um contêiner a uma rede"
+    },
+    {
+        "code": "docker network disconnect <nome_da_rede> <id_do_container>",
+        "name": "desconectar um contêiner de uma rede"
+    },
+    {
+        "code": "docker-compose up",
+        "name": "subir serviços definidos em um docker-compose.yml"
+    },
+    {
+        "code": "docker-compose down",
+        "name": "derrubar serviços definidos no docker-compose.yml"
+    },
+    {
+        "code": "docker-compose ps",
+        "name": "listar serviços do Docker Compose"
+    },
+    {
+        "code": "docker-compose restart",
+        "name": "reiniciar serviços do Docker Compose"
+    },
+    {
+        "code": "docker volume ls",
+        "name": "listar volumes Docker"
+    },
+    {
+        "code": "docker volume create <nome_do_volume>",
+        "name": "criar um novo volume Docker"
+    },
+    {
+        "code": "docker volume rm <nome_do_volume>",
+        "name": "remover um volume Docker"
+    },
+    {
+        "code": "docker build -t <nome_da_imagem> .",
+        "name": "criar uma imagem Docker a partir de um Dockerfile"
+    },
+    {
+        "code": "docker save -o <arquivo.tar> <nome_da_imagem>",
+        "name": "salvar uma imagem em um arquivo"
+    },
+    {
+        "code": "docker load -i <arquivo.tar>",
+        "name": "carregar uma imagem a partir de um arquivo"
+    },
+    {
+        "code": "docker tag <nome_da_imagem> <novo_nome>",
+        "name": "renomear uma imagem Docker"
+    },
+    {
+        "code": "docker push <nome_da_imagem>",
+        "name": "enviar uma imagem para um repositório"
+    },
+    {
+        "code": "docker inspect <id_do_container>",
+        "name": "exibir detalhes de um contêiner"
+    },
+    {
+        "code": "docker stats",
+        "name": "exibir estatísticas dos contêineres em execução"
+    },
+    {
+        "code": "docker history <nome_da_imagem>",
+        "name": "ver histórico de uma imagem Docker"
+    },
+    {
+        "code": "docker system prune",
+        "name": "limpar recursos não utilizados do Docker"
+    }
+]
+
