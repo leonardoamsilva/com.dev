@@ -1,0 +1,44 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 700px;
+}
+
+form input {
+  height: 40px;
+}
+
+form textarea {
+  height: 200px;
+}
+
+form input, textarea {
+  background-color: #1B1B1B;
+  border: none;
+  color: white;
+  padding: 15px;
+}
+
+
+.btn {
+  transition: background-color 0.3s ease-in-out;
+  height: 45px;
+}
+
+.btn:hover {
+  background-color: #82aaff;;
+  cursor: pointer;
+  color: #1B1B1B;
+  font-weight: bold;
+}
+
+input:focus {
+  border:0.1px solid #82aaff;
+  outline: none;
+}
+
+textarea:focus {
+  border:0.1px solid #82aaff;
+  outline: none;
+}

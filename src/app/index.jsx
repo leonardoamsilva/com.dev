@@ -9,6 +9,7 @@ import { Construction } from '../pages/Construction';
 import { Terms } from '../pages/Terms';
 import { Privacy } from '../pages/Privacy';
 import { Prompt } from '../pages/platforms/Prompt';
+import { PowerShell } from '../pages/platforms/PowerShell';
 import { Linux } from '../pages/platforms/Linux';
 import { Mac } from '../pages/platforms/Mac';
 import { Vscode } from '../pages/platforms/Vscode';
@@ -18,7 +19,7 @@ import { Contact } from '../pages/Contact';
 import { useState } from 'react';
 import { Info } from '../components/common/Info';
 import { Faq } from '../pages/Faq';
-import { PowerShell } from '../pages/platforms/PowerShell';
+import { Feedback } from '../pages/Feedback';
 
 export const App = () => {
   const [search, setSearch] = useState('');
@@ -48,6 +49,7 @@ export const App = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/terms' element={<Terms />} />
         <Route path='/privacy' element={<Privacy />} />
+        <Route path='/feedback' element={<Feedback />} />
         <Route path='*' element={<Construction />} />
       </Routes>
 

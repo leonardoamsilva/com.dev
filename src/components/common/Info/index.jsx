@@ -1,9 +1,10 @@
+import { NavLink } from 'react-router-dom';
 import './style.css';
 
 export const Info = () => {
   return (
     <div className='info'>
-      <p>ℹ️ a escolha por escrever tudo em minúsculas é proposital! 💡 ela faz parte da nossa identidade e é algo que muitos desenvolvedores gostam. 😉</p>
+      <p>ℹ️ a escolha por escrever tudo em minúsculas é proposital! 💡 ela faz parte da nossa identidade e é algo que muitos desenvolvedores gostam. 😉 <span><NavLink to="/feedback">Curtiu? Conta pra gente!</NavLink></span></p>
     </div>
   );
 };
