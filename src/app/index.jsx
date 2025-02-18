@@ -49,6 +49,7 @@ export const App = () => {
         <Route path='/contact' element={<Contact />} />
         <Route path='/terms' element={<Terms />} />
         <Route path='/privacy' element={<Privacy />} />
+        <Route path='/feedback' element={<Feedback />} />
         <Route path='*' element={<Construction />} />
       </Routes>
 
