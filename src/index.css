@@ -24,7 +24,7 @@ main {
 
 .content {
   width: 800px;
-  min-height: 505px;
+  min-height: 77vh;
   margin-left: 20px;
   color: white;
 }
