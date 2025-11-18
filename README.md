@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+## 💻 comandos.dev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Plataforma centralizada com os comandos **essenciais** para desenvolvedores (Git, Linux, Docker, VS Code e mais).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### 💡 Sobre
 
-### `npm start`
+O **comandos.dev** é uma ferramenta pensada para desenvolvedores que precisam de acesso rápido a comandos comuns de diversas áreas da tecnologia. Nosso objetivo é ser uma única fonte de referência, fácil de consultar e organizada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ⚙️ Começando (Desenvolvimento Local)
 
-### `npm test`
+Para rodar este projeto em sua máquina para testes ou contribuição, siga estes passos.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Pré-requisitos
 
-### `npm run build`
+Você só precisa ter o **Node.js** e o **Git** instalados. Certifique-se de que sua **chave SSH** está configurada no seu GitHub/GitLab.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Passos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clone o repositório (via SSH):**
+    ```bash
+    git clone git@github.com:leonardoamsilva/com.dev.git
+    cd com.dev
+    ```
+    *Alternativamente, via HTTPS:*
+    ```bash
+    git clone https://github.com/leonardoamsilva/com.dev.git](https://github.com/leonardoamsilva/com.dev.git)
+    cd com.dev
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    # OU
+    yarn install
+    ```
 
-### `npm run eject`
+3.  **Inicie o projeto:**
+    ```bash
+    npm run start
+    ```
+    O projeto deve abrir em `http://localhost:[PORTA]`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🤝 Contribuição
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Gostamos de contribuições! Sinta-se à vontade para abrir **Issues** com sugestões de novos comandos ou enviar **Pull Requests** com correções e melhorias.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1.  Fork o repositório.
+2.  Crie sua branch (`git checkout -b feature/nome-da-feature`).
+3.  Commit suas mudanças.
+4.  Abra um Pull Request.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔗 Links
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Site Oficial:** [https://comandos.dev](https://comandos.dev)
