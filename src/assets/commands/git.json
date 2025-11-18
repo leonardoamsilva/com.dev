@@ -1,186 +1,238 @@
 [
-	{
-			"code": "git config --global user.name 'comandos dev'",
-			"name": "setar usuário"
-	},
-	{
-			"code": "git config --global user.email comandos@dev.com.br",
-			"name": "setar email"
-	},
-	{
-			"code": "git config --global core.editor vim",
-			"name": "setar editor"
-	},
-	{
-			"code": "git config --list",
-			"name": "listar configurações"
-	},
-	{
-			"code": "git clone <https://url-do-link>",
-			"name": "clona o código do repositório"
-	},
-	{
-			"code": "git init",
-			"name": "cria novo repositório"
-	},
-	{
-			"code": "git status",
-			"name": "verifica estado dos arquivos/diretórios"
-	},
-	{
-			"code": "git add arquivo.txt",
-			"name": "adicionar um arquivo em específico (staged area)"
-	},
-	{
-			"code": "git add diretorio",
-			"name": "adicionar um diretório em específico (staged area)"
-	},
-	{
-			"code": "git add .",
-			"name": "adicionar todos os arquivos/diretórios (staged area)"
-	},
-	{
-			"code": "git commit arquivo.txt",
-			"name": "comitar um arquivo"
-	},
-	{
-			"code": "git commit arquivo.txt meu_outro_arquivo.txt",
-			"name": "comitar vários arquivos"
-	},
-	{
-			"code": "git commit arquivo.txt -m 'mensagem de commit'",
-			"name": "comitar com a mensagem"
-	},
-	{
-			"code": "git rm arquivo.txt",
-			"name": "remover arquivo"
-	},
-	{
-			"code": "git rm -r diretorio",
-			"name": "remover diretório"
-	},
-	{
-			"code": "git log",
-			"name": "exibir histórico"
-	},
-	{
-			"code": "git log -p -2",
-			"name": "exibir histórico com diff das duas últimas alterações"
-	},
-	{
-			"code": "git log -- <caminho_do_arquivo>",
-			"name": "exibir histórico de um arquivo específico"
-	},
-	{
-			"code": "git log --author=usuario",
-			"name": "exibir histórico de um determinado autor"
-	},
-	{
-			"code": "git checkout -- meu_arquivo.txt",
-			"name": "desfazer alteração local (antes do staged area)"
-	},
-	{
-			"code": "git reset HEAD meu_arquivo.txt",
-			"name": "desfazer alteração local (add no staged area)"
-	},
-	{
-			"code": "git remote ou git remote -v",
-			"name": "exibir os repositórios remotos"
-	},
-	{
-			"code": "git remote add origin git@github.com:user/nome.git",
-			"name": "vincular repositório local com remoto"
-	},
-	{
-			"code": "git remote show origin",
-			"name": "exibir informações dos repositórios remotos"
-	},
-	{
-			"code": "git remote rename origin curso-git",
-			"name": "renomear um repositório remoto"
-	},
-	{
-			"code": "git remote rm curso-git",
-			"name": "desvincular um repositório remoto"
-	},
-	{
-			"code": "git push -u origin <nome_branch>",
-			"name": "o primeiro push nome do repositório remoto e o branch."
-	},
-	{
-			"code": "git push",
-			"name": "os demais push"
-	},
-	{
-			"code": "git pull",
-			"name": "atualizar os arquivos no branch atual"
-	},
-	{
-			"code": "git tag vs-1.0",
-			"name": "criando uma tag"
-	},
-	{
-			"code": "git tag -a vs-1.0 -m 'version 1.0'",
-			"name": "criando uma tag anotada"
-	},
-	{
-			"code": "git branch <nome-da-branch>",
-			"name": "criando um novo branch"
-	},
-	{
-			"code": "git checkout <nome-da-ramificação>",
-			"name": "trocando de branch"
-	},
-	{
-			"code": "git checkout -b <nome-da-ramificação>",
-			"name": "cria e vai para o novo branch"
-	},
-	{
-			"code": "git branch -d <nome-da-ramificação>",
-			"name": "apagar um branch"
-	},
-	{
-			"code": "git branch",
-			"name": "listar branches"
-	},
-	{
-			"code": "git branch -v",
-			"name": "listar branches com últimos commits"
-	},
-	{
-			"code": "git stash",
-			"name": "criar um stash"
-	},
-	{
-			"code": "git stash list",
-			"name": "listar stashes"
-	},
-	{
-			"code": "git stash apply stash@{2}",
-			"name": "voltar para um stash específico (o n°'2' o stash desejado)"
-	},
-	{
-			"code": "git switch <nome-da-branch>",
-			"name": "trocar de branch (substituto do checkout - experimental)"
-	},
-	{
-			"code": "git switch -c <nome-da-branch>",
-			"name": "criar e trocar para um novo branch (substituto do checkout -b - experimental)"
-	},
-	{
-			"code": "git restore <arquivo>",
-			"name": "restaurar um arquivo modificado (substituto do checkout -- <arquivo> - experimental)"
-	},
-	{
-			"code": "git restore --staged <arquivo>",
-			"name": "desfazer um git add (substituto do reset HEAD <arquivo> - experimental)"
-	},
-	{
-			"code": "git restore --source <branch> <arquivo>",
-			"name": "restaurar um arquivo de uma branch diferente ( experimental )"
-	},
-	{
-			"code": "git switch --discard-changes",
-			"name": "desfazer alterações ao trocar de branch ( experimental )"
-	}
+  {
+    "code": "git config --global user.name 'comandos dev'",
+    "name": "setar usuário global"
+  },
+  {
+    "code": "git config --global user.email comandos@dev.com.br",
+    "name": "setar email global"
+  },
+  {
+    "code": "git config --global core.editor vim",
+    "name": "setar editor padrão"
+  },
+  {
+    "code": "git config --list",
+    "name": "listar todas as configurações"
+  },
+  {
+    "code": "git init",
+    "name": "cria novo repositório local"
+  },
+  {
+    "code": "git clone <https://url-do-link>",
+    "name": "clona o código do repositório (HTTPS)"
+  },
+  {
+    "code": "git clone git@github.com:user/repo.git",
+    "name": "clona o código do repositório (SSH)"
+  },
+  {
+    "code": "git status",
+    "name": "verifica estado dos arquivos/diretórios"
+  },
+  {
+    "code": "git diff",
+    "name": "comparar mudanças não adicionadas (unstaged)"
+  },
+  {
+    "code": "git diff --staged",
+    "name": "comparar mudanças adicionadas (staged vs. commit)"
+  },
+  {
+    "code": "git diff index.html",
+    "name": "comparar mudanças em um arquivo específico"
+  },
+  {
+    "code": "git add arquivo.txt",
+    "name": "adicionar um arquivo específico (staged area)"
+  },
+  {
+    "code": "git add diretorio",
+    "name": "adicionar um diretório específico (staged area)"
+  },
+  {
+    "code": "git add .",
+    "name": "adicionar todos os arquivos/diretórios (staged area)"
+  },
+  {
+    "code": "git commit arquivo.txt -m 'mensagem de commit'",
+    "name": "comitar arquivo(s) com a mensagem"
+  },
+  {
+    "code": "git commit",
+    "name": "abrir editor para comitar todas as alterações no stage"
+  },
+  {
+    "code": "git rm arquivo.txt",
+    "name": "remover arquivo (staged e disco)"
+  },
+  {
+    "code": "git rm -r diretorio",
+    "name": "remover diretório"
+  },
+  {
+    "code": "git log",
+    "name": "exibir histórico completo de commits"
+  },
+  {
+    "code": "git log -p -2",
+    "name": "exibir histórico com diff das duas últimas alterações"
+  },
+  {
+    "code": "git log --oneline --graph --decorate",
+    "name": "exibir histórico em grafo e formatado em uma linha"
+  },
+  {
+    "code": "git log -- <caminho_do_arquivo>",
+    "name": "exibir histórico de um arquivo específico"
+  },
+  {
+    "code": "git tag vs-1.0",
+    "name": "criando uma tag simples"
+  },
+  {
+    "code": "git tag -a vs-1.0 -m 'version 1.0'",
+    "name": "criando uma tag anotada (com mensagem)"
+  },
+  {
+    "code": "git diff 8a3b83c 5f9e9d1",
+    "name": "comparar dois commits por hash"
+  },
+  {
+    "code": "git remote ou git remote -v",
+    "name": "exibir os repositórios remotos"
+  },
+  {
+    "code": "git remote add origin git@github.com:user/nome.git",
+    "name": "vincular repositório local com remoto (SSH)"
+  },
+  {
+    "code": "git push -u origin <nome_branch>",
+    "name": "primeiro push (seta o upstream)"
+  },
+  {
+    "code": "git push",
+    "name": "enviar alterações locais para o remoto"
+  },
+  {
+    "code": "git pull",
+    "name": "atualizar e mesclar arquivos do remoto para o branch atual"
+  },
+  {
+    "code": "git fetch",
+    "name": "baixa alterações do remoto, mas não mescla (apenas visualiza)"
+  },
+  {
+    "code": "git fetch --prune",
+    "name": "baixa e remove branches remotas que foram apagadas"
+  },
+  {
+    "code": "git remote show origin",
+    "name": "exibir informações dos repositórios remotos"
+  },
+  {
+    "code": "git remote rename origin curso-git",
+    "name": "renomear um repositório remoto"
+  },
+  {
+    "code": "git remote rm curso-git",
+    "name": "desvincular um repositório remoto"
+  },
+  {
+    "code": "git branch",
+    "name": "listar branches locais"
+  },
+  {
+    "code": "git branch -v",
+    "name": "listar branches com últimos commits"
+  },
+  {
+    "code": "git branch <nome-da-branch>",
+    "name": "criar um novo branch"
+  },
+  {
+    "code": "git checkout <nome-da-ramificação>",
+    "name": "trocar de branch (legado)"
+  },
+  {
+    "code": "git checkout -b <nome-da-ramificação>",
+    "name": "cria e troca para o novo branch (legado)"
+  },
+  {
+    "code": "git switch <nome-da-branch>",
+    "name": "trocar de branch (novo e recomendado)"
+  },
+  {
+    "code": "git switch -c <nome-da-branch>",
+    "name": "cria e troca para um novo branch (novo e recomendado)"
+  },
+  {
+    "code": "git merge <nome-da-branch>",
+    "name": "unir alterações da branch na branch atual"
+  },
+  {
+    "code": "git rebase <nome-da-branch>",
+    "name": "rebasear branch atual em outra (histórico linear)"
+  },
+  {
+    "code": "git mergetool",
+    "name": "abrir ferramenta gráfica para resolver conflitos"
+  },
+  {
+    "code": "git branch -d <nome-da-ramificação>",
+    "name": "apagar um branch local"
+  },
+  {
+    "code": "git branch -m <novo-nome>",
+    "name": "renomear a branch atual"
+  },
+  {
+    "code": "git diff main..HEAD",
+    "name": "comparar branch atual com main"
+  },
+  {
+    "code": "git checkout -- meu_arquivo.txt",
+    "name": "desfazer alteração local (antes do staged area)"
+  },
+  {
+    "code": "git reset HEAD meu_arquivo.txt",
+    "name": "desfazer alteração local (add no staged area - legado)"
+  },
+  {
+    "code": "git revert <hash-do-commit>",
+    "name": "desfaz um commit criando um novo (histórico seguro)"
+  },
+  {
+    "code": "git reset --hard HEAD~1",
+    "name": "descarta o último commit e suas alterações locais"
+  },
+  {
+    "code": "git stash",
+    "name": "salvar alterações temporariamente (criar um stash)"
+  },
+  {
+    "code": "git stash list",
+    "name": "listar stashes salvos"
+  },
+  {
+    "code": "git stash apply stash@{2}",
+    "name": "aplicar um stash específico (o n°'2' o stash desejado)"
+  },
+  {
+    "code": "git restore <arquivo>",
+    "name": "restaurar um arquivo modificado (substituto do checkout -- <arquivo>)"
+  },
+  {
+    "code": "git restore --staged <arquivo>",
+    "name": "desfazer um git add (substituto do reset HEAD <arquivo>)"
+  },
+  {
+    "code": "git restore --source <branch> <arquivo>",
+    "name": "restaurar um arquivo de uma branch diferente"
+  },
+  {
+    "code": "git switch --discard-changes",
+    "name": "desfazer alterações ao trocar de branch"
+  }
 ]
